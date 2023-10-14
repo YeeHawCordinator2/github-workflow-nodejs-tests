@@ -1,4 +1,8 @@
 const express = require('express');
-const bcrypt = require("bcrypt");
+const app = express();
 
-console.log(bcrypt.hash("password", 10));
+
+app.listen(3000, function()
+{
+    console.log("Server running on port 3000.");
+});
